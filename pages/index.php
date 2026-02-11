@@ -1,0 +1,73 @@
+<?php
+
+
+
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homer Signup | BAIRD</title>
+
+    <!-- Main Styling -->
+    <link rel="stylesheet" href="../css/main.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Playwrite+NZ+Basic:wght@100..400&display=swap" rel="stylesheet">
+
+    <!-- Ubuntu Font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Playwrite+NZ+Basic:wght@100..400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="homerright"><img src="../img/Homer_Simpson.png" class="homepic" onclick="imageAudio()"></div>
+    <div class="container">
+        <div class="warning">
+        <h2>Sign up to Springfield!</h2>
+        <!-- <h6>*only one way ticket. no refunds</h6> -->
+        </div>
+        <div class="card">
+            <i class="homerlogo"></i>
+            <form class="homersign" action="../pages/submission.html" method="post">
+                <label>First name:</label>
+                <input type="text" placeholder="first name..."><br>
+                <label>Last name:</label>
+                <input type="text" placeholder="last name..."><br>
+                <label>Email:</label>
+                <input type="email" placeholder="email..."><br>
+                <label>Password:</label>
+                <input type="password"placeholder="password..."><br>
+                <button type="submit">SIGN UP</button>
+                <!-- <footer></footer> -->
+            </form>
+        </div>
+    </div>
+
+    <audio id="mySound" src="../sounds/doh_r4RZcVw.mp3" preload="auto"></audio>
+
+    <!-- Java-Script -->
+
+<script>
+  function imageAudio() {
+    var audio = document.getElementById("mySound");
+    audio.play();
+  }
+</script>
+
+
+
+
+
+
+</body>
+
+</html>

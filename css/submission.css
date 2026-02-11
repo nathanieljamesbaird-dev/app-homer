@@ -1,0 +1,80 @@
+/* Ubuntu Font */
+
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-light-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ubuntu-regular-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-medium-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ubuntu-bold-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+html body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/thumb-1920-457065.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: #4da5ff;
+}
+
+h1 {
+    font-family: ubuntu;
+}
+
+h6 {
+    font-family: ubuntu;
+}
+
+.container {
+    background: white;
+    width: 50%;
+    height: 250px;
+    border-radius: 1rem;
+    box-shadow: 0 0 8px;
+    margin-left: 50px;
+    margin-top: 80px;
+}

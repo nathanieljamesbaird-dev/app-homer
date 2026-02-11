@@ -1,0 +1,178 @@
+/* Font */
+
+.playwrite-nz-basic-springfield {
+  font-family: "Playwrite NZ Basic", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Ubuntu Font */
+
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-light-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ubuntu-regular-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-medium-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ubuntu-bold-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Main Content */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  overflow: hidden;
+  color: white; 
+}
+
+body::before {
+  background: #fcdb02;
+  position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/thumb-1920-591067.jpg'); 
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px); 
+    z-index: -1;  
+    transform: scale(1.05); 
+}
+
+h2 {
+    font-family: Ubuntu;
+    font-size: 34px;
+}
+
+h6 {
+    font-family: Playwrite NZ Basic;
+    font-weight: 100;
+}
+
+.homerright {
+    position: absolute;
+    left: 1300px;
+    top: 100px;
+    filter: drop-shadow(0 0 1rem black);
+    transition: transform 0.3s ease;
+}
+
+.homerright:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 1rem black);
+}
+
+.container {
+    background: white;
+    overflow: hidden;
+    width: 500px;
+    border-radius: 2rem;
+    height: 600px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 0 1em #333;
+    position: relative;
+}
+
+.warning {
+    text-align: center;
+    position: relative;
+    color: black;
+}
+
+.card {
+/* background: red; */
+width: 70%;
+height: auto;
+margin: auto;
+
+}
+
+/* Form, Label, Input, Button */
+
+label {
+    color: #333;
+    font-family: Ubuntu;
+    font-size: 18px;
+}
+
+input {
+    padding: 12px;
+    background: #f9f9f9;
+    border: solid 1px #9999;
+    border-radius: 1rem;
+    transition: transform 0.3s ease;
+}
+
+input:hover {
+    transform: scale(1.1); /* Scale up by 10% */
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 2rem;
+    border: none;
+    background: #fcdb02;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.1); /* Scale up by 10% */
+    box-shadow: 0 0 5px #333;
+    filter: brightness(90%);
+
+}
+
+.homersign {
+display: grid;
+gap: 8px;
+}
